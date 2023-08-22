@@ -16,7 +16,7 @@
             <a href="/conf.php" id="consem">Yearwise Data</a>
         </div>
         <center>
-            <img src="/img/gec.png" alt="" width=100% hight=100%>
+            <img src="img/gec.png" alt="" width=100% hight=100%>
             
         
             <h1>Results Visualization</h1>
@@ -67,7 +67,7 @@
                 <table class="data" >
                         <tr>
                             <td>
-                                <img src="/img/pass/<?php echo $row1['image']?>" alt="Student Photo"  height=190 width=150>
+                                <img src="img/pass/<?php echo $row1['image']?>" alt="Student Photo"  height=190 width=150>
                             </td>
                         
                             <td>

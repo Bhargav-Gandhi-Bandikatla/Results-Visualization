@@ -96,7 +96,7 @@ if(isset($_POST['search']))
         <table class="data" >
                 <tr>
                     <td>
-                        <img src="/img/pass/<?php echo $Htno?>.jpg" alt="Student Photo" height=190 width=150>
+                        <img src="img/pass/<?php echo $Htno?>.jpg" alt="Student Photo" height=190 width=150>
                     </td>
                 
                     <td>
