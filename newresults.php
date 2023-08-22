@@ -24,16 +24,16 @@
               
                 <ul  class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link text-light "  href="../try" >Home</a>
+                    <a class="nav-link text-light "  href="../Results-Visualization" >Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light "  href="../try/consolidate.php" >SemWise Data</a>
+                    <a class="nav-link text-light "  href="../Results-Visualization/consolidate.php" >SemWise Data</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="../try/conf.php" >Yearwise Data</a>
+                    <a class="nav-link text-light" href="../Results-Visualization/conf.php" >Yearwise Data</a>
                 </li>
                  <li class="nav-item">
-                    <a class="nav-link text-light" href="../try/newresults.php" >New Result</a>
+                    <a class="nav-link text-light" href="../Results-Visualization/newresults.php" >New Result</a>
                 </li>
                 </ul>
             </div>
