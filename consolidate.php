@@ -39,7 +39,7 @@
     </div>
 </nav>
     <center>
-        <img src="/try/gec.png" alt="" width=100% hight=100%>
+        <img src="gec.png" alt="" width=100% hight=100%>
         <h1>Results Visualization</h1>
     </center>
     <div id='form'>
@@ -87,7 +87,7 @@ if(!isset($_POST['search']))
 {
 ?>
 <hr>
-<center><img class="h" src="/try/ge.jpeg" width=80% /></center>
+<center><img class="h" src="ge.jpeg" width=80% /></center>
   <?php
 }
   ?>

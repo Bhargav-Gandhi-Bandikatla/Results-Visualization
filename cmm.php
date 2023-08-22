@@ -16,7 +16,7 @@
             <a href="/conf.php" id="consem">Yearwise Data</a>
         </div>
         <center>
-            <img src="img/gec.png" alt="" width=100% hight=100%>
+            <img src="gec.png" alt="" width=100% hight=100%>
             
         
             <h1>Results Visualization</h1>
@@ -41,7 +41,7 @@
         {
             ?>
             <hr>
-            <center><img class="h" src="/ge.jpeg" /></center>
+            <center><img class="h" src="ge.jpeg" /></center>
             <?php
         }
         ?>

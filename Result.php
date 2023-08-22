@@ -73,7 +73,7 @@
       {
       ?>
       <hr>
-      <center><img class="h" src="/ge.jpeg" /></center>
+      <center><img class="h" src="ge.jpeg" /></center>
         <?php
       }
         ?>
