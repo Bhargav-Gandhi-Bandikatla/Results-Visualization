@@ -46,14 +46,14 @@
             <center>
                 <form action="" method="POST">
                     <label>Select year of join: </ladel>
-                    <select name="yoj" required>
+                    <select name="yearOfJoining" required>
                         <option value="">select</option>
                         <option value="19">19</option>
                         <option value="20">20</option>
                         <option value="21">21</option>
                     </select>&nbsp;
                     <label>Department: </label>
-                    <select name="dep" required>
+                    <select name="department" required>
                         <option value="">select</option>
                         <option value="CIVIL">CIVIL</option>
                         <option value="EEE">EEE</option>
@@ -87,14 +87,14 @@
             if(isset($_POST['search']))
             {
                 //$sem=$_POST['sem'];
-                $yoj=$_POST['yoj'];
-                $dep=$_POST['dep'];
+                $yearOfJoining=$_POST['yearOfJoining'];
+                $department=$_POST['department'];
                 $sname=array();
                 $sub=array();
                 $sd=array();
                 ?>
                   <br class='noprint'>
-                  <center><b><?php echo $dep.' 20'.$yoj.' batch';?></b></center>
+                  <center><b><?php echo $department.' 20'.$yearOfJoining.' batch';?></b></center>
                 <?php
                 $fcout=array();
                 $sf=array();
@@ -103,7 +103,7 @@
                 $fl=array();
                 //$connection = mysqli_connect("localhost","root","");
                 //$db = mysqli_select_db($connection,'sdata19jk');
-                $query="select * from student where year ='$yoj'AND Branch='$dep' ";
+                $query="select * from student where year ='$yearOfJoining'AND Branch='$department' ";
                 $query_run=$mysqli->query($query);
                 $Hno=array();
                 while($ro=mysqli_fetch_array($query_run)){
